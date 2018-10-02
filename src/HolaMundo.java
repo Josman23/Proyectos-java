@@ -20,11 +20,14 @@ public class HolaMundo {
 
 /////////////////////////////////////////////////////////// Clase Auto /////////////////////////////////////////////////
 
+        // Crear una Instancia de Auto
         Auto auto = new Auto();
         auto.lavarVehiculo();
         System.out.println("Placas: "+auto.getPlaca());
         System.out.println("Numero de llantas Veiculo: "+ auto.getNumeroLlantas());
 
+
+        //Sentencia Try y Catch
         try {
             Auto auto2 = new Auto("AABD972");
             auto2.lavarVehiculo();
