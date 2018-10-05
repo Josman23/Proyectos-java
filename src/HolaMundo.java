@@ -1,4 +1,5 @@
 
+import equals.Persona;
 import loops.Loops;
 import primeraclase.Auto;
 import primeraclase.Motocicleta;
@@ -46,6 +47,19 @@ public class HolaMundo {
         Motocicleta moto = new Motocicleta();
         moto.lavarVehiculo();
         System.out.printf("Numero de llantas Motocicleta: "+ moto.getNumeroLlantas());
+
+////////////////////////////////////////////////// Equals /////////////////////////////////////////////////////////////////////
+
+        Persona p1 = new Persona();
+        Persona p2= new Persona();
+
+        p1.setNombre("Pedro");
+        p1.setEdad(26);
+
+        p2.setNombre("Pedro");
+        p2.setEdad(26);
+
+        System.out.println(p1.equals(p2));
 
 
 
